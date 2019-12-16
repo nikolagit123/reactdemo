@@ -1,9 +1,10 @@
 import React from 'react'
+import { withRouter } from 'react-router-dom'
 import { Helmet } from 'react-helmet';
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="flex items-center justify-center flex-1">
       <Helmet>
         <title>Generated Home By Code</title>
         <meta name="description" content="Home description is updated by component" />
@@ -13,4 +14,4 @@ const HomePage = () => {
   )
 }
 
-export default HomePage
+export default withRouter(HomePage)

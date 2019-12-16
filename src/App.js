@@ -1,29 +1,20 @@
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import React from 'react'
+import { Router, Switch, Route } from 'react-router-dom'
+import * as history from 'history'
+import Header from './pages/Header'
 import Home from './pages/Home'
 import About from './pages/About'
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Router basename={process.env.PUBLIC_URL}>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-        </ul>
-
-        <hr />
-
+    <div className="flex flex-col h-full items-center justify-center bg-blue-dark text-white">
+      <Router basename={process.env.PUBLIC_URL} history={history.createBrowserHistory()}>
+        <Header />
         <Switch>
           <Route exact path="/">
-            <Home />
+            <Home title="Home"/>
           </Route>
-          <Route path="/about">
+          <Route path="/about" title="About">
             <About />
           </Route>
         </Switch>

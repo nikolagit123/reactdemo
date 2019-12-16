@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 
 const AboutPage = () => {
   return (
-    <div>
+    <div className="flex items-center justify-center flex-1">
       <Helmet>
         <title>Generated About By Code</title>
         <meta name="description" content="About description is updated by component" />
