@@ -8,7 +8,7 @@ const AboutPage = () => {
         <title>Generated About By Code</title>
         <meta name="description" content="About description is updated by component" />
       </Helmet>
-      <p>About Us Page!</p>
+      <h1>About Us Page!</h1>
     </div>
   )
 }

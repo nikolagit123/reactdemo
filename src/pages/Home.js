@@ -8,7 +8,7 @@ const HomePage = () => {
         <title>Generated Home By Code</title>
         <meta name="description" content="Home description is updated by component" />
       </Helmet>
-      <p>Home Page!</p>
+      <h1>Home Page!</h1>
     </div>
   )
 }
