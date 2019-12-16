@@ -24,7 +24,7 @@
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
-    "auto-deploy": "git add .; git commit -m 'auto commit'; git push origin master; yarn run deploy;"
+    "auto-deploy": "git add .; git commit -m 'auto commit'; git push; yarn run deploy;"
   },
   "eslintConfig": {
     "extends": "react-app"
