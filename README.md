@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Good startup project for redux, thunk, redux-logger, react-router, tailwinds, google material design
+
 ## Available Scripts
 
 In the project directory, you can run:
