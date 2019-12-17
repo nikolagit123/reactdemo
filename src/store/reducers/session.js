@@ -6,6 +6,7 @@ const { session } = initialState
 
 const resetSession = (state) => ({
   ...state,
+  user: 'Dream',
 })
 
 export const sessionReducer = createReducer(session, {
