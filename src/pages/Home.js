@@ -13,7 +13,7 @@ const HomePage = () => {
   return (
     <div className="flex items-center justify-center flex-1">
       <Helmet>
-        <title>Generated Home By Code</title>
+        <title>Generated Home Screen</title>
         <meta name="description" content="Home description is updated by component" />
       </Helmet>
       <div className="flex items-center justify-center flex-col">

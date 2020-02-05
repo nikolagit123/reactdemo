@@ -36,7 +36,7 @@ const Header = ({ location }) => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            Dreamsoftware SSR
+            React Initial
           </Typography>
           <Link className={classes.item} to="/">
             <Button color="inherit">Home</Button>
